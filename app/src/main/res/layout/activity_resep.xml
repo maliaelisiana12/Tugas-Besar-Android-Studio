@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgtiga"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RESEP MAKANAN"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAlignment="center"
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bakso Bakar Pak Man"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAlignment="center"
+            android:background="@color/putih"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="2"
+            android:src="@drawable/baksobakar"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="20dp"
+            android:scaleType="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30 butir pentol :pentol daging (2 kg daing yang sudah di giling ), cabe rawit (sesuai selera), bawang putih, bawang merah, daun jeruk, ketumbar, gula merah (1/2 lingkaran)"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="10dp"
+            android:textStyle="normal" />
+
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sate Pak Sabar"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAlignment="center"
+            android:background="@color/putih"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="2"
+            android:src="@drawable/gambar5"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="20dp"
+            android:scaleType="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="daging sapi cuci bersih dan potong, daun salam, bawang merah iris tipis-tipis, bawang putih iris tipis-tipis, bawang merah iris besar besar, cabe rawit iris, cabe hijau iris bulat bulat, gula garam kaldu bubuk, kacang, kecap"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="10dp"
+            android:textStyle="normal" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Soto Ayam Lamongan Oro-Oro Dowo"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAlignment="center"
+            android:background="@color/putih"
+            android:layout_weight="1"
+            />
+
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="2"
+            android:src="@drawable/gambar5"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="20dp"
+            android:scaleType="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 ekor ayam kampung 4 lembar daun salam 3 lembar daun jeruk 2 batang sereh di geprek 1 ruas lengkuas digeprek 1 batang daun bawang
+2 2 liter air sedikit kaldu bubuk. Bumbu Halus : 12 buah bawang putih 8 siung bawang merah 2 ruas kunyit 1 ruas jahe 3 biji kemiri"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="10dp"
+            android:textStyle="normal" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seblak Malabar"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAlignment="center"
+            android:background="@color/putih"
+            android:layout_weight="1"
+            />
+
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="2"
+            android:src="@drawable/seblak"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="20dp"
+            android:scaleType="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kerupuk kanji mentah 50 g Telur ayam 1 butir, kocok Daun bawang 1 batang, iris halus Seledri 1 batang, iris halus Garam 1 sdt Penyedap rasa 1/2 sdt Kecap manis 1 sdm  Cabe rawit 3 buah Bawang merah 2 siung Bawang putih 1 siung Kencur 2 ruas jari"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="10dp"
+            android:textStyle="normal" />
+
+
+        <Button
+
+            android:id="@+id/btnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:onClick="Resep"
+            android:textStyle="bold"
+            android:textColor="@color/putih"
+            android:background="@color/hitam"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

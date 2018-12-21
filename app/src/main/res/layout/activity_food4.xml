@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Foodies">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seblak ini terletak di Jalan Bunga Coklat No.1, Tulusrejo, Kecamatan Lowokwaru, Jatimulyo, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141 Buka : 15.00"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/seblak"
+        android:gravity="fill"
+        android:padding="20dp"
+        android:text="      Seblak malabar ini menyediakan beberapa menu andalan seperti seblak telur, seblak sosis, seblak bakso, seblak siomay dan seblak makaroni yang dibanderol seharga Rp 7 ribu sampai Rp 8 ribu saja."
+        android:textSize="13sp"
+        tools:ignore="RtlCompat"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+
+        android:id="@+id/seblak"
+        android:layout_width="300sp"
+        android:layout_height="250sp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="2"
+        android:src="@drawable/seblak" />
+
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="Ganti Foto"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/kembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="BACK"
+        android:onClick="Food4"
+        tools:ignore="RtlCompat" />
+
+</RelativeLayout>

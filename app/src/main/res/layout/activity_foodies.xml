@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Foodies">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temukan Info menarik berbagai makanan di seluruh Indonesia !"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageButton
+        android:id="@+id/btn1"
+        android:layout_width="190dp"
+        android:layout_height="152dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btn2"
+        android:onClick="Food1"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/baksobakar"
+        tools:ignore="OnClick,RtlCompat"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <ImageButton
+        android:id="@+id/btn2"
+        android:layout_width="190dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="83dp"
+        android:onClick="Food2"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/gambar5"
+        tools:ignore="OnClick,RtlCompat"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <ImageButton
+        android:id="@+id/btn3"
+        android:layout_width="190dp"
+        android:layout_height="152dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/btn1"
+        android:onClick="Food3"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/gambar2"
+        tools:ignore="OnClick,RtlCompat"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <ImageButton
+        android:id="@+id/btn4"
+        android:layout_width="190dp"
+        android:layout_height="152dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn1"
+        android:onClick="Food4"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/seblak"
+        tools:ignore="OnClick,RtlCompat"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <Button
+        android:id="@+id/kembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="BACK"
+        android:onClick="Foodies"
+        tools:ignore="RtlCompat" />
+
+
+</RelativeLayout>
